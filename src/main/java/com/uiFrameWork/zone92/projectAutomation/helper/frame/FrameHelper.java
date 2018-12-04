@@ -11,7 +11,7 @@ public class FrameHelper {
 	private WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(FrameHelper.class);
 	
-	public FrameHelper() {
+	public FrameHelper(WebDriver driver) {
 		this.driver = driver;
 	}
 	

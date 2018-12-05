@@ -10,3 +10,30 @@
 2018-11-22 18:11:836 INFO  LoggerHelper :23 - logger is configured
 2018-11-22 18:11:839 INFO  LoggerHelper :24 - logger is configured
 2018-11-22 18:11:848 INFO  LoggerHelper :25 - logger is configured
+2018-12-05 11:12:105 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 11:12:116 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 11:12:128 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 11:12:173 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 11:12:179 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 11:12:196 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 11:12:870 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 11:12:880 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 11:12:887 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 11:12:947 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 11:12:961 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 11:12:974 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 12:12:913 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 12:12:948 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 12:12:964 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 12:12:78 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 12:12:86 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 12:12:116 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 12:12:214 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 12:12:223 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 12:12:228 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 3 times.
+2018-12-05 12:12:269 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 1 times.
+2018-12-05 12:12:276 INFO  Retry :17 - Retrying test testLogin with status FAILURE for the 2 times.
+2018-12-05 12:12:329 INFO  Retry :17 - Retrying test testLoginB with status FAILURE for the 1 times.
+2018-12-05 12:12:338 INFO  Retry :17 - Retrying test testLoginB with status FAILURE for the 2 times.
+2018-12-05 12:12:378 INFO  Retry :17 - Retrying test testLoginC with status FAILURE for the 1 times.
+2018-12-05 12:12:390 INFO  Retry :17 - Retrying test testLoginC with status FAILURE for the 2 times.

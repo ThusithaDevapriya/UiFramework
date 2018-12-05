@@ -105,7 +105,7 @@ public class WaitHelper {
 		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
 		log.info("frame is available and switched");
-	}
+	} 
 	
 	/**
 	 * This method will gives fluent object

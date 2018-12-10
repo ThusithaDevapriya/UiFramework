@@ -37,3 +37,6 @@
 2018-12-05 12:12:338 INFO  Retry :17 - Retrying test testLoginB with status FAILURE for the 2 times.
 2018-12-05 12:12:378 INFO  Retry :17 - Retrying test testLoginC with status FAILURE for the 1 times.
 2018-12-05 12:12:390 INFO  Retry :17 - Retrying test testLoginC with status FAILURE for the 2 times.
+2018-12-07 17:12:923 INFO  ExcelHelper :97 - result updated..
+2018-12-07 17:12:220 INFO  ExcelHelper :97 - result updated..
+2018-12-07 17:12:303 INFO  ExcelHelper :97 - result updated..

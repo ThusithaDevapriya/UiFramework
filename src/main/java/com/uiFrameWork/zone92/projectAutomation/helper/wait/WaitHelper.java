@@ -10,6 +10,7 @@ import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
@@ -22,6 +23,9 @@ public class WaitHelper {
 	private WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(WaitHelper.class);
 	
+	public WaitHelper(WebDriver driver) {
+		this.driver = driver;
+	}
 	public void setImplecitWait(WebDriver driver) {
 		this.driver = driver;		
 	}

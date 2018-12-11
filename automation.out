@@ -68,3 +68,63 @@
 2018-12-10 16:12:70 INFO  VerificationHelper :28 - making script FAIL..
 2018-12-10 16:12:171 INFO  VerificationHelper :18 - making script PASS..
 2018-12-10 16:12:268 INFO  VerificationHelper :28 - making script FAIL..
+2018-12-11 14:12:852 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 14:12:103 INFO  TestBase :114 - Initialize Web driver: 1082528716
+2018-12-11 14:12:191 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 14:12:905 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 14:12:988 INFO  WaitHelper :152 - page is loaded
+2018-12-11 15:12:779 INFO  TestBase :114 - Initialize Web driver: 991671211
+2018-12-11 15:12:784 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 15:12:791 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 15:12:796 INFO  WaitHelper :152 - page is loaded
+2018-12-11 18:12:357 INFO  TestBase :120 - Initialize Web driver: 1392271025
+2018-12-11 18:12:363 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 18:12:376 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 18:12:383 INFO  WaitHelper :152 - page is loaded
+2018-12-11 18:12:531 INFO  TestBase :120 - Initialize Web driver: 1287455719
+2018-12-11 18:12:538 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 18:12:547 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 18:12:557 INFO  WaitHelper :152 - page is loaded
+2018-12-11 18:12:89 INFO  ExtentListener :30 - A Class Started..
+2018-12-11 18:12:109 INFO  ExtentListener :52 - testLoginA Test Started..
+2018-12-11 18:12:117 INFO  ExtentListener :58 - testLoginA Test Passed..
+2018-12-11 18:12:608 INFO  ExtentListener :30 - A Class Started..
+2018-12-11 18:12:631 INFO  ExtentListener :52 - testLoginA Test Started..
+2018-12-11 18:12:640 INFO  ExtentListener :58 - testLoginA Test Passed..
+2018-12-11 18:12:675 INFO  ExtentListener :23 - A Test Finished..
+2018-12-11 18:12:678 INFO  ExtentListener :30 - B Class Started..
+2018-12-11 18:12:682 INFO  ExtentListener :52 - testLoginB Test Started..
+2018-12-11 18:12:693 ERROR ExtentListener :40 - testLoginB Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2018-12-11 18:12:727 INFO  ExtentListener :23 - B Test Finished..
+2018-12-11 18:12:732 INFO  ExtentListener :30 - C Class Started..
+2018-12-11 18:12:735 INFO  ExtentListener :52 - testLoginC Test Started..
+2018-12-11 18:12:744 ERROR ExtentListener :40 - testLoginC Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2018-12-11 18:12:761 INFO  ExtentListener :23 - C Test Finished..
+2018-12-11 18:12:763 INFO  ExtentListener :30 - TestScreenShot Class Started..
+2018-12-11 18:12:469 INFO  TestBase :120 - Initialize Web driver: 1513029997
+2018-12-11 18:12:471 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 18:12:481 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 18:12:487 INFO  WaitHelper :152 - page is loaded
+2018-12-11 18:12:652 INFO  ExtentListener :52 - testScreen Test Started..
+2018-12-11 18:12:18 INFO  ExtentListener :58 - testScreen Test Passed..
+2018-12-11 18:12:33 INFO  ExtentListener :23 - TestScreenShot Test Finished..
+2018-12-11 19:12:887 INFO  ExtentListener :30 - A Class Started..
+2018-12-11 19:12:906 INFO  ExtentListener :52 - testLoginA Test Started..
+2018-12-11 19:12:910 INFO  ExtentListener :58 - testLoginA Test Passed..
+2018-12-11 19:12:936 INFO  ExtentListener :23 - A Test Finished..
+2018-12-11 19:12:939 INFO  ExtentListener :30 - B Class Started..
+2018-12-11 19:12:945 INFO  ExtentListener :52 - testLoginB Test Started..
+2018-12-11 19:12:951 ERROR ExtentListener :40 - testLoginB Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2018-12-11 19:12:971 INFO  ExtentListener :23 - B Test Finished..
+2018-12-11 19:12:973 INFO  ExtentListener :30 - C Class Started..
+2018-12-11 19:12:987 INFO  ExtentListener :52 - testLoginC Test Started..
+2018-12-11 19:12:992 ERROR ExtentListener :40 - testLoginC Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2018-12-11 19:12:08 INFO  ExtentListener :23 - C Test Finished..
+2018-12-11 19:12:11 INFO  ExtentListener :30 - TestScreenShot Class Started..
+2018-12-11 19:12:476 INFO  TestBase :129 - Initialize Web driver: 1121891386
+2018-12-11 19:12:479 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 19:12:485 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 19:12:491 INFO  WaitHelper :152 - page is loaded
+2018-12-11 19:12:642 INFO  ExtentListener :52 - testScreen Test Started..
+2018-12-11 19:12:25 INFO  ExtentListener :58 - testScreen Test Passed..
+2018-12-11 19:12:938 INFO  ExtentListener :23 - TestScreenShot Test Finished..

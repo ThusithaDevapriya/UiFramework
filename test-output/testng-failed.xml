@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.uiFrameWork.zone92.projectAutomation.helper.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="B(failed)">
     <classes>
-      <class name="com.uiFrameWork.zone92.projectAutomation.testScripts.Test2">
+      <class name="com.uiFrameWork.B">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="testLogin3"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="testLogin1"/>
+          <include name="testLoginB"/>
         </methods>
-      </class> <!-- com.uiFrameWork.zone92.projectAutomation.testScripts.Test2 -->
-      <class name="com.uiFrameWork.zone92.projectAutomation.testScripts.Test1">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="testLogin3"/>
-          <include name="testLogin1"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.uiFrameWork.zone92.projectAutomation.testScripts.Test1 -->
+      </class> <!-- com.uiFrameWork.B -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- B(failed) -->
+  <test thread-count="5" name="C(failed)">
+    <classes>
+      <class name="com.uiFrameWork.C">
+        <methods>
+          <include name="testLoginC"/>
+        </methods>
+      </class> <!-- com.uiFrameWork.C -->
+    </classes>
+  </test> <!-- C(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

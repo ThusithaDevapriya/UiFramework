@@ -32,7 +32,7 @@ public class FirefoxBrowser {
 			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\geckodriver"));
 			return new FirefoxDriver(fop);
 		}
-		else if(System.getProperty("os.name").contains("WIN10")) {
+		else if(System.getProperty("os.name").contains("Window")) {
 			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\geckodriver.exe"));
 			return new FirefoxDriver(fop);
 		}

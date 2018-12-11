@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.uiFrameWork.zone92.projectAutomation.helper.listener.RetryListener"/>
+    <listener class-name="com.uiFrameWork.zone92.projectAutomation.helper.listener.ExtentListener"/>
   </listeners>
-  <test thread-count="5" name="SecondtTest(failed)">
+  <test thread-count="5" name="B(failed)">
     <classes>
       <class name="com.uiFrameWork.B">
         <methods>
@@ -12,8 +12,8 @@
         </methods>
       </class> <!-- com.uiFrameWork.B -->
     </classes>
-  </test> <!-- SecondtTest(failed) -->
-  <test thread-count="5" name="ThirdTest(failed)">
+  </test> <!-- B(failed) -->
+  <test thread-count="5" name="C(failed)">
     <classes>
       <class name="com.uiFrameWork.C">
         <methods>
@@ -21,5 +21,5 @@
         </methods>
       </class> <!-- com.uiFrameWork.C -->
     </classes>
-  </test> <!-- ThirdTest(failed) -->
+  </test> <!-- C(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

@@ -16,10 +16,7 @@ public class ChromeBrowser {
 		DesiredCapabilities chrome = DesiredCapabilities.chrome();
 		chrome.setJavascriptEnabled(true); 
 		option.setCapability(ChromeOptions.CAPABILITY, chrome );
-		//Linux
-		if(System.getProperty("os.name").contains("Linux")) {
-			option.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
-		}
+		
 		return option;
 	}
 	
@@ -29,8 +26,8 @@ public class ChromeBrowser {
 			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\chrome"));
 			return new ChromeDriver(cop);
 		}
-		else if(System.getProperty("os.name").contains("WIN10")) {
-			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\chrome.exe"));
+		else if(System.getProperty("os.name").contains("Window")) {
+			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("\\src\\main\\resources\\drivers\\chromedriver.exe"));
 			return new ChromeDriver(cop);
 		}
 		else if(System.getProperty("os.name").contains("Linux")) {

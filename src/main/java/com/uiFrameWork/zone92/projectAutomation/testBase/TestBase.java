@@ -130,7 +130,7 @@ public class TestBase{
 		WaitHelper wait = new WaitHelper(driver);
 		wait.setImplicitWait(ObjectReader.reader.getImplicitWait(), TimeUnit.SECONDS);
 		wait.pageLoadTime(ObjectReader.reader.getPageLoadTime(), TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 	}
 	
 	public String captureScreen(String fileName, WebDriver driver) {

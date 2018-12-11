@@ -13,6 +13,7 @@ public class ChromeBrowser {
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--test-type");
 		option.addArguments("--disable-popup-blocking");
+		option.addArguments("--start-maximized");
 		DesiredCapabilities chrome = DesiredCapabilities.chrome();
 		chrome.setJavascriptEnabled(true); 
 		option.setCapability(ChromeOptions.CAPABILITY, chrome );

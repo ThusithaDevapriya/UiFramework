@@ -128,3 +128,7 @@
 2018-12-11 19:12:642 INFO  ExtentListener :52 - testScreen Test Started..
 2018-12-11 19:12:25 INFO  ExtentListener :58 - testScreen Test Passed..
 2018-12-11 19:12:938 INFO  ExtentListener :23 - TestScreenShot Test Finished..
+2018-12-11 21:12:924 INFO  TestBase :129 - Initialize Web driver: 608817143
+2018-12-11 21:12:940 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
+2018-12-11 21:12:960 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
+2018-12-11 21:12:967 INFO  WaitHelper :152 - page is loaded

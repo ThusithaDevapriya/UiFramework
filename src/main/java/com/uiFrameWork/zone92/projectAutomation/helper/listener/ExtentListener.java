@@ -9,6 +9,7 @@ import org.testng.Reporter;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.uiFrameWork.zone92.projectAutomation.helper.database.DatabaseHelper;
 import com.uiFrameWork.zone92.projectAutomation.helper.logger.LoggerHelper;
 import com.uiFrameWork.zone92.projectAutomation.utils.ExtentManager;
 
@@ -55,7 +56,7 @@ public class ExtentListener implements ITestListener{
 	public void onTestSuccess(ITestResult result) {
 		//test.log(Status.INFO, result.getName()+" Passed..");
 		Reporter.log(result.getMethod().getMethodName()+" Test Passed..");
-		log.info(result.getMethod().getMethodName()+" Test Passed..");
+		log.info(result.getMethod().getMethodName()+" Test Passed..");	
 	}
 
 }

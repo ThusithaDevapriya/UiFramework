@@ -132,3 +132,32 @@
 2018-12-11 21:12:940 INFO  WaitHelper :40 - Implicit Wait has been set to: 120
 2018-12-11 21:12:960 INFO  WaitHelper :150 - waiting for page to load for : SECONDS seconds
 2018-12-11 21:12:967 INFO  WaitHelper :152 - page is loaded
+2018-12-16 15:12:863 ERROR DatabaseHelper :45 - Failed to create Data base connection..java.sql.SQLNonTransientConnectionException: Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Malformed database URL, failed to parse the main URL sections.
+2018-12-16 15:12:69 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:791 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:794 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:420 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:423 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:251 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:254 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:878 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:881 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:899 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests
+2018-12-16 15:12:445 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:448 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:465 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests
+2018-12-16 15:12:398 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:401 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:422 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests
+2018-12-16 15:12:414 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 15:12:417 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 15:12:434 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests
+2018-12-16 16:12:924 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 16:12:928 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 16:12:134 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests
+2018-12-16 16:12:502 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 16:12:506 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 16:12:556 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests
+2018-12-16 16:12:521 INFO  DatabaseHelper :41 - Connected to dataBase..
+2018-12-16 16:12:525 INFO  DatabaseHelper :62 - Executing query: SELECT firstname FROM thusitha.myguests where id=2
+2018-12-16 16:12:549 INFO  DatabaseHelper :62 - Executing query: SELECT * FROM thusitha.myguests

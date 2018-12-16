@@ -129,8 +129,7 @@ public class TestBase{
 		log.info("Initialize Web driver: "+driver.hashCode());		
 		WaitHelper wait = new WaitHelper(driver);
 		wait.setImplicitWait(ObjectReader.reader.getImplicitWait(), TimeUnit.SECONDS);
-		wait.pageLoadTime(ObjectReader.reader.getPageLoadTime(), TimeUnit.SECONDS);
-		//driver.manage().window().maximize();
+		wait.pageLoadTime(ObjectReader.reader.getPageLoadTime(), TimeUnit.SECONDS);		
 	}
 	
 	public String captureScreen(String fileName, WebDriver driver) {
